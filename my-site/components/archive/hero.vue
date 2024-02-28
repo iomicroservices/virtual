@@ -4,7 +4,7 @@ Main Banner START -->
 <section class="pt-8">
 	<div class="container">
 		<!-- Main title and search -->
-		<div class="inner-container text-center mb-6">
+		<div class="inner-container text-center">
 			<!-- Title -->
 			<h1 class="mb-0 lh-base position-relative">
 				<!-- SVG decoration -->

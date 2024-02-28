@@ -83,11 +83,23 @@ defineOgImage({
   <main>
     <ArchiveHero />
         <div>
+
             <!-- =======================
             Blog list and sidebar START -->
             <section class="pt-0">
                 <div class="container">
                     <div class="row g-xl-7">
+                        <div class="col-md-8">
+                            <div class="input-group">
+                                <input 
+                                    v-model="searchTest"
+                                    placeholder="🔍 Search..."
+                                    type="search"
+                                    class="form-control border rounded-pill"
+                                    id="searchBar"
+                                >
+                            </div>
+                        </div>
                         <!-- Blog list START -->
                         <div class="col-lg-8">
 
@@ -227,14 +239,7 @@ defineOgImage({
             Blog list and sidebar END -->
         </div>
 
-    <div class="px-6">
-      <input
-        v-model="searchTest"
-        placeholder="Search"
-        type="text"
-        class="block"
-      >
-    </div>
+    
 
 
     <div class="flex justify-center items-center space-x-6 ">
