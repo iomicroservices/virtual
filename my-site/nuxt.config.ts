@@ -7,8 +7,9 @@ export default defineNuxtConfig({
     '@nuxtjs/fontaine',
     '@nuxtjs/color-mode',
     '@nuxtjs/robots',
-    'nuxt-simple-sitemap',
+    '@nuxtjs/sitemap',
     'nuxt-icon',
     'nuxt-og-image',
+    'vue-content-loader',
   ]
 })
