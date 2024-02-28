@@ -46,7 +46,6 @@ withDefaults(defineProps<Props>(), {
                         <!-- Author name and button -->
                         <div class="d-sm-flex justify-content-between align-items-center mt-auto">
                             <p class="mb-2 heading-color fw-semibold">
-                                <LogoDate />
                                 <p> {{ date }}</p>
                             </p>
                             <a class="icon-link icon-link-hover stretched-link" href="blog-single-v1.html">Read more<i class="bi bi-arrow-right"></i> </a>
