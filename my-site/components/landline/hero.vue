@@ -1,7 +1,7 @@
 <template>
 <!-- =======================
 Main Banner START -->
-<section id="hero" class="pt-10 pb-0">
+<section id="hero" class="pt-10 pb-0 mb-0">
 	<!-- SVG decoration -->
 	<div class="position-absolute top-0 start-0 ms-n7 d-none d-xl-block">
 		<img src="assets/images/elements/decoration-pattern.svg" alt="">
@@ -18,9 +18,7 @@ Main Banner START -->
 				
 				<!-- Title -->
 				<h1 class="mt-3"> 
-					<span class="cd-headline clip big-clip is-full-width mb-0 d-block d-xxl-inline-block" style="color: #5c3efb;">
-						<span class="typed" data-type-text="Personalised&&Customised&&Tailored&&Create&&Bespoke&&Unique&&Branded&&Memorable&&Cherished"></span>
-					</span><p>mobile numbers made by you</p>				
+					<p>Virtual business numbers made by you</p>				
 				</h1>
 
 				<p class="mb-0 mt-4 mt-xl-5">Have something specific in mind? Request a custom mobile number in a couple of clicks. It has never been easier to create a personalised mobile number that reflects your identity or brand.</p>
@@ -49,86 +47,7 @@ Main Banner START -->
 		</div>
 		<!-- Hero END -->
 
-		<hr class="border-primary opacity-2 mt-sm-7 my-5"> <!-- Divider -->
-
-		<!-- Client and skill sets START -->
-		<div class="row">
-			<!-- Client -->
-			<div class="col-md-6 col-xl-7 mb-5 mb-md-0">
-				<p class="mb-0"><i class="bi bi-shield-check"></i> | Custom mobile numbers work on any UK network provider.</p>
-				
-				<!-- Slider START -->
-				<div class="swiper mt-2 mt-md-4"
-				data-swiper-options='{
-						"loop": true, 
-						"slidesPerView": 2, 
-						"spaceBetween": 30, 
-						"autoplay":{
-							"delay": 2000, 
-							"disableOnInteraction": false
-						},
-						"breakpoints": { 
-							"576": {"slidesPerView": 3}, 
-							"768": {"slidesPerView": 2}, 
-							"992": {"slidesPerView": 3}, 
-							"1200": {"slidesPerView": 4}
-						}}'>
-
-						<!-- Slider items -->
-						<div class="swiper-wrapper align-items-center">
-							<!-- Image -->
-							<div class="swiper-slide">
-								<img src="assets/images/custom/ee-logo.png" class="px-3 ps-0" alt="buy a custom mobile number with EE network">
-							</div>
-							<!-- Image -->
-							<div class="swiper-slide">
-								<img src="assets/images/custom/Three-logo.png" class="px-3" alt="buy a custom mobile number with Three network">
-							</div>
-							<!-- Image -->
-							<div class="swiper-slide">
-								<img src="assets/images/custom/o2-logo.png" class="px-3" alt="buy a custom mobile number with EE network">
-							</div>
-							<!-- Image -->
-							<div class="swiper-slide">
-								<img src="assets/images/custom/vodafone-logo.png" class="px-3" alt="buy a custom mobile number with Vodafone network">
-							</div><!-- Image -->
-							<div class="swiper-slide">
-								<img src="assets/images/custom/giffgaff-logo.png" class="px-3" alt="buy a custom mobile number with giffgaff network">
-							</div>
-						</div>
-				</div>
-			</div>
-
-			<!-- Skill sets -->
-			<div class="col-md-6 col-lg-5 col-xl-3 ms-auto text-md-end">
-				<!-- Title -->
-				<p class="mb-0 me-2">Trusted by thousands</p>
-
-				<!-- Counter -->
-				<div class="d-flex justify-content-md-end mt-2 mt-md-4">
-					<!-- Counter item -->
-					<div>
-						<div class="d-flex justify-content-md-end">
-							<h4 class="purecounter mb-0" data-purecounter-start="0" data-purecounter-end="3500"	data-purecounter-delay="300">2,000</h4>
-							<span class="h4 mb-0">+</span>
-						</div>
-						<p class="mb-0">Happy customers</p>
-					</div>
-
-					<div class="vr mx-3 mx-sm-4"></div> <!-- Divider -->
-
-					<!-- Counter item -->
-					<div>
-						<div class="d-flex justify-content-md-end">
-							<h4 class="purecounter mb-0" data-purecounter-start="0" data-purecounter-end="17,290"	data-purecounter-delay="300">17,000</h4>
-							<span class="h4 mb-0">+</span>
-						</div>
-						<p class="mb-0">Requests processed</p>
-					</div>
-				</div>
-			</div>
-		</div>
-		<!-- Client and skill sets END -->
+		<hr class="border-primary opacity-2 mt-sm-7 mt-5  mb-0"> <!-- Divider -->
 	</div>	
 </section>
 <!-- =======================

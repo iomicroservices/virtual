@@ -2,7 +2,7 @@
 
 <!-- =======================
 Contact us START -->
-<section id="contact-us" class="pt-10 mt-5 pb-0">
+<section id="contact-us" class="pt-10 mt-5 pb-0 mb-0">
 	<div class="container">
 		<div class="bg-primary bg-opacity-10 rounded p-4 p-sm-5">
 

@@ -2,7 +2,7 @@
 
 <!-- =======================
 About content START -->
-<section id="about" class="pt-10 mt-5 pb-0">
+<section id="about" class="pt-10 mt-5 pb-0 mb-0">
 	<div class="container">
 		<div class="bg-dark rounded-3 position-relative overflow-hidden p-5 p-md-7" data-bs-theme="dark">
 			<!-- SVG decoration -->

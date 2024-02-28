@@ -1,7 +1,7 @@
 <template>
 <!-- =======================
 Faqs START -->
-<section id="faqs" class="pt-10 mt-5 pb-0">
+<section id="faqs" class="pt-10 mt-5 pb-0 mb-0">
     <div class="pt-0 pb-0">
         <div class="container">
             <div class="row">

@@ -1,7 +1,7 @@
 <template>
 <!-- =======================
 Features START -->
-<section id="features" class="pt-10 mt-5 pb-0">
+<section id="features" class="pt-10 mt-5 pb-0 mb-0">
 	<div class="container">
 		<!-- Title -->
 		<div class="inner-container-small text-center mb-9">

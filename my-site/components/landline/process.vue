@@ -1,7 +1,7 @@
 <template>
 <!-- =======================
 How it works START -->
-<section id="process" class="pt-10 mt-5 pb-0 overflow-hidden">
+<section id="process" class="pt-10 mt-5 pb-0 mb-0 overflow-hidden">
 	<div class="container">
 		<!-- Title -->
 		<div class="inner-container text-center mb-4 mb-sm-6">

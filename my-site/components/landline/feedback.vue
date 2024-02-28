@@ -1,7 +1,7 @@
 <template>
 <!-- =======================
 Feedback START -->
-<section id="feedback"  class="pt-10 mt-5 pb-0">
+<section id="feedback"  class="pt-10 mt-5 pb-0 mb-0">
 	<div class="container">
 		<div class="row">
 			<!-- Testimonials content -->

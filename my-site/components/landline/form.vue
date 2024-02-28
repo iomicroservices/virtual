@@ -1,7 +1,7 @@
 <template>
 <!-- =======================
 Request form START -->
-<section id="custom" class="pt-10 mt-5 pb-0">
+<section id="custom" class="pt-10 mt-5 pb-0 mb-0">
 	<div class="container pt-4 pt-md-0">
 		<div class="row justify-content-between">
 
