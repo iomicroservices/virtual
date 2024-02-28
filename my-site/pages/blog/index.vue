@@ -115,6 +115,24 @@ defineOgImage({
                         <button type="button" class="btn btn-dark rounded-2 mb-0"><i class="bi bi-search me-2"></i>Search</button>
                     </div>
                 </form>
+            
+                <!-- Popular tags -->
+                <div class="align-items-center mt-5">
+                    <ul class="list-inline mb-0 social-media-btn">
+                        <li class="list-inline-item"> <a class="btn btn-light btn-sm" href="#">blog</a> </li>
+                        <li class="list-inline-item"> <a class="btn btn-light btn-sm" href="#">business</a> </li>
+                        <li class="list-inline-item"> <a class="btn btn-light btn-sm" href="#">bootstrap</a> </li>
+                        <li class="list-inline-item"> <a class="btn btn-light btn-sm" href="#">data science</a> </li>
+                        <li class="list-inline-item"> <a class="btn btn-light btn-sm" href="#">deep learning</a> </li>
+                        <li class="list-inline-item"> <a class="btn btn-light btn-sm" href="#">Adventure</a> </li>
+                        <li class="list-inline-item"> <a class="btn btn-light btn-sm" href="#">Community</a> </li>
+                        <li class="list-inline-item"> <a class="btn btn-light btn-sm" href="#">Tutorials</a> </li>
+                        <li class="list-inline-item"> <a class="btn btn-light btn-sm" href="#">Interview</a> </li>
+                        <li class="list-inline-item"> <a class="btn btn-light btn-sm" href="#">Photography</a> </li>
+                        <li class="list-inline-item"> <a class="btn btn-light btn-sm" href="#">Classic</a> </li>
+                    </ul>
+                </div>
+
             </div>
         </div>
     </section>
@@ -163,6 +181,15 @@ defineOgImage({
 
                 <!-- Sidebar START -->
                 <div class="col-lg-4 mt-5 mt-lg-0">
+                    
+                    <!-- Advertisement -->
+                    <div class="card text-bg-dark mb-5">
+                        <img src="assets/images/blog/adv.jpg" class="card-img" alt="adv image">
+                        <div class="card-img-overlay">
+                            <h5 class="card-title">Advertisement</h5>
+                        </div>
+                    </div>
+
                     <!-- Subscribe box -->
                     <div class="card card-body bg-light p-4">
                         <!-- Svg icon -->
@@ -186,14 +213,6 @@ defineOgImage({
                         </form>
                     </div>
 
-                    <!-- Advertisement -->
-                    <div class="card text-bg-dark mt-5">
-                        <img src="assets/images/blog/adv.jpg" class="card-img" alt="adv image">
-                        <div class="card-img-overlay">
-                            <h5 class="card-title">Advertisement</h5>
-                        </div>
-                    </div>
-
                     <!-- Social button -->
                     <div class="mt-5">
                         <h6 class="mb-3">Follow us on:</h6>
@@ -203,24 +222,6 @@ defineOgImage({
                             <li class="list-inline-item"> <a class="btn btn-round bg-twitter" href="#"><i class="fab fa-fw fa-twitter lh-base"></i></a> </li>
                             <li class="list-inline-item"> <a class="btn btn-round bg-linkedin" href="#"><i class="fab fa-fw fa-linkedin-in lh-base"></i></a> </li>
                             <li class="list-inline-item"> <a class="btn btn-round bg-youtube" href="#"><i class="fab fa-fw fa-youtube lh-base"></i></a> </li>
-                        </ul>
-                    </div>
-
-                    <!-- Popular tags -->
-                    <div class="align-items-center mt-5">
-                        <h6 class="mb-3 d-inline-block">Popular Tags:</h6>
-                        <ul class="list-inline mb-0 social-media-btn">
-                            <li class="list-inline-item"> <a class="btn btn-light btn-sm" href="#">blog</a> </li>
-                            <li class="list-inline-item"> <a class="btn btn-light btn-sm" href="#">business</a> </li>
-                            <li class="list-inline-item"> <a class="btn btn-light btn-sm" href="#">bootstrap</a> </li>
-                            <li class="list-inline-item"> <a class="btn btn-light btn-sm" href="#">data science</a> </li>
-                            <li class="list-inline-item"> <a class="btn btn-light btn-sm" href="#">deep learning</a> </li>
-                            <li class="list-inline-item"> <a class="btn btn-light btn-sm" href="#">Adventure</a> </li>
-                            <li class="list-inline-item"> <a class="btn btn-light btn-sm" href="#">Community</a> </li>
-                            <li class="list-inline-item"> <a class="btn btn-light btn-sm" href="#">Tutorials</a> </li>
-                            <li class="list-inline-item"> <a class="btn btn-light btn-sm" href="#">Interview</a> </li>
-                            <li class="list-inline-item"> <a class="btn btn-light btn-sm" href="#">Photography</a> </li>
-                            <li class="list-inline-item"> <a class="btn btn-light btn-sm" href="#">Classic</a> </li>
                         </ul>
                     </div>
 
