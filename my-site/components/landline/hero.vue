@@ -27,7 +27,7 @@ Main Banner START -->
 
 				<!-- Buttons -->
 				<div class="d-flex gap-1 gap-sm-3 flex-wrap mt-4 mt-xl-5">
-					<a href="#custom" class="btn btn-warning" role="button">Create a number</a>
+					<a href="#custom" class="btn btn-primary" role="button">Create a number</a>
 					<a href="#process" class="btn btn-outline-dark" role="button">Find out more</a>
 				</div>
 
