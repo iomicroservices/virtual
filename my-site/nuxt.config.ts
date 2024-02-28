@@ -6,7 +6,9 @@ export default defineNuxtConfig({
     '@nuxt/image',
     '@nuxtjs/fontaine',
     '@nuxtjs/color-mode',
-    '@nuxtjs/robots'
+    '@nuxtjs/robots',
+    'nuxt-icon',
+    'nuxt-og-image',
 
   ]
 })
