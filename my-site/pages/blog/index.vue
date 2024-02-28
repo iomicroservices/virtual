@@ -84,7 +84,7 @@ defineOgImage({
     
     <!-- =======================
     Main Banner START -->
-    <section class="pt-8">
+    <section id="blogHero" class="pt-8">
         <div class="container">
             <!-- Main title and search -->
             <div class="inner-container text-center">
@@ -135,7 +135,7 @@ defineOgImage({
 
     <!-- =======================
     Blog list and sidebar START -->
-    <section class="pt-0">
+    <section id="blogBody" class="pt-0">
         <div class="container">
             <div class="row g-xl-7">
                 <!-- Blog list START -->
