@@ -91,30 +91,7 @@ defineOgImage({
                         <!-- Blog list START -->
                         <div class="col-lg-8">
 
-                            <!-- Blog item -->
-                            <article class="card card-hover-shadow border p-3 mb-4">
-                                <div class="row">
-                                    <div class="col-md-4">
-                                        <!-- Image -->
-                                        <img src="assets/images/blog/4by4/06.jpg" class="img-fluid card-img" alt="blog-img">
-                                    </div>
-                                    <div class="col-md-8">
-                                        <!-- Content -->
-                                        <div class="card-body d-flex flex-column h-100 ps-0 pe-3">
-                                            <div><span class="badge text-bg-dark mb-3">Technology</span></div>
-                                            <h5 class="card-title mb-3 mb-md-0">The Power of Gratitude: Cultivating Joy and Abundance</h5>
-                                            <!-- Author name and button -->
-                                            <div class="d-sm-flex justify-content-between align-items-center mt-auto">
-                                                <p class="mb-2 heading-color fw-semibold">By Carolyn Ortiz</p>
-                                                <a class="icon-link icon-link-hover stretched-link" href="blog-single-v1.html">Read more<i class="bi bi-arrow-right"></i> </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </article>
-
                             <!-- Blog items -->
-                            
                             <ClientOnly>
                             <div>
                                 <template v-for="post in paginatedData" :key="post.title">
@@ -143,100 +120,7 @@ defineOgImage({
                                 <BlogLoader />
                                 <BlogLoader />
                             </template>
-                            </ClientOnly>
-
-                            <!-- Blog item -->
-                            <article class="card card-hover-shadow border p-3 mb-4">
-                                <div class="row">
-                                    <div class="col-md-4">
-                                        <!-- Image -->
-                                        <img src="assets/images/blog/4by4/07.jpg" class="img-fluid card-img" alt="blog-img">
-                                    </div>
-                                    <div class="col-md-8">
-                                        <!-- Content -->
-                                        <div class="card-body d-flex flex-column h-100 ps-0 pe-3">
-                                            <div class="d-flex justify-content-between position-relative z-index-2">
-                                                <span class="badge text-bg-dark mb-3">Lifestyle</span>
-                                                <a href="#!" class="mb-0 text-body small" tabindex="0" role="button" data-bs-container="body" data-bs-toggle="popover" data-bs-trigger="focus" data-bs-placement="top" data-bs-content="You're seeing this ad because your activity meets the intended audience of our site.">
-                                                    <i class="bi bi-info-circle ps-1"></i> Sponsored
-                                                </a>
-                                            </div>
-                                            <h5 class="card-title mb-3 mb-md-0">5 investment doubts you should clarify</h5>
-                                            <!-- Author name and button -->
-                                            <div class="d-sm-flex justify-content-between align-items-center mt-auto">
-                                                <p class="mb-2 heading-color fw-semibold">By Amanda Reed</p>
-                                                <a class="icon-link icon-link-hover stretched-link" href="blog-single-v2.html">Read more<i class="bi bi-arrow-right"></i> </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </article>
-
-                            <!-- Blog item -->
-                            <article class="card card-hover-shadow border p-3 mb-4">
-                                <div class="row">
-                                    <div class="col-md-4">
-                                        <!-- Image -->
-                                        <img src="assets/images/blog/4by4/08.jpg" class="img-fluid card-img" alt="blog-img">
-                                    </div>
-                                    <div class="col-md-8">
-                                        <!-- Content -->
-                                        <div class="card-body d-flex flex-column h-100 ps-0 pe-3">
-                                            <div><span class="badge text-bg-dark mb-3">Design</span></div>
-                                            <h5 class="card-title mb-3 mb-md-0">Mastering Responsive Web Design with Bootstrap</h5>
-                                            <!-- Author name and button -->
-                                            <div class="d-sm-flex justify-content-between align-items-center mt-auto">
-                                                <p class="mb-2 heading-color fw-semibold">By Joan Wallace</p>
-                                                <a class="icon-link icon-link-hover stretched-link" href="blog-single-v1.html">Read more<i class="bi bi-arrow-right"></i> </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </article>
-
-                            <!-- Blog item -->
-                            <article class="card card-hover-shadow border p-3 mb-4">
-                                <div class="row">
-                                    <div class="col-md-4">
-                                        <!-- Image -->
-                                        <img src="assets/images/blog/4by4/09.jpg" class="img-fluid card-img" alt="blog-img">
-                                    </div>
-                                    <div class="col-md-8">
-                                        <!-- Content -->
-                                        <div class="card-body d-flex flex-column h-100 ps-0 pe-3">
-                                            <div><span class="badge text-bg-dark mb-3">Marketing</span></div>
-                                            <h5 class="card-title mb-3 mb-md-0">Effortless Web Development with Mizzle</h5>
-                                            <!-- Author name and button -->
-                                            <div class="d-sm-flex justify-content-between align-items-center mt-auto">
-                                                <p class="mb-2 heading-color fw-semibold">By Lori Stevens</p>
-                                                <a class="icon-link icon-link-hover stretched-link" href="blog-single-v2.html">Read more<i class="bi bi-arrow-right"></i> </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </article>
-
-                            <!-- Blog item -->
-                            <article class="card card-hover-shadow border p-3">
-                                <div class="row">
-                                    <div class="col-md-4">
-                                        <!-- Image -->
-                                        <img src="assets/images/blog/4by4/10.jpg" class="img-fluid card-img" alt="blog-img">
-                                    </div>
-                                    <div class="col-md-8">
-                                        <!-- Content -->
-                                        <div class="card-body d-flex flex-column h-100 ps-0 pe-3">
-                                            <div><span class="badge text-bg-dark mb-3">Research</span></div>
-                                            <h5 class="card-title mb-3 mb-md-0">Ten questions you should answer truthfully.</h5>
-                                            <!-- Author name and button -->
-                                            <div class="d-sm-flex justify-content-between align-items-center mt-auto">
-                                                <p class="mb-2 heading-color fw-semibold">By Louis Crawford</p>
-                                                <a class="icon-link icon-link-hover stretched-link" href="blog-single-v2.html">Read more<i class="bi bi-arrow-right"></i> </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </article>
+                            </ClientOnly>                           
                         </div>
                         <!-- Blog list END -->
 

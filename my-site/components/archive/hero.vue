@@ -17,7 +17,7 @@ Main Banner START -->
 						<path d="M30.8,83.2c0.1,0.5-3.5,1.7-7.7,3.1c-4.3,1.4-9.2,3.1-12.1,4.1c-5.7,1.9-10.6,3.1-11,2.1 c-0.4-0.9,3.9-3.6,9.8-5.6c2.9-1,8.1-2.4,12.6-3.2C26.9,83,30.7,82.7,30.8,83.2z"/>
 					</svg>
 				</span>
-				Thoughts, stories and ideas from Mizzle
+				Thoughts, stories and ideas from Telco
 			</h1>
 		</div>
 	</div>

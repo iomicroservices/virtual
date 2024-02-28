@@ -42,7 +42,7 @@ withDefaults(defineProps<Props>(), {
                     <div class="card-body d-flex flex-column h-100 ps-0 pe-3">
                         <div><p v-for="tag in tags" :key="tag" class="badge text-bg-dark mb-3">{{ tag }}</p></div>
                         <h5 class="card-title mb-3 mb-md-0">{{ title }} </h5>
-                        <p> {{ description }} </p>
+                        <p> {{ description.slice(0, 50) }}...</p>
                         <!-- Author name and button -->
                         <div class="d-sm-flex justify-content-between align-items-center mt-auto">
                             <p class="mb-2 heading-color fw-semibold">
