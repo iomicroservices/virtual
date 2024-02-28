@@ -113,6 +113,38 @@ defineOgImage({
                                 </div>
                             </article>
 
+                            <!-- Blog items -->
+                            
+                            <ClientOnly>
+                            <div>
+                                <template v-for="post in paginatedData" :key="post.title">
+                                <ArchiveCard
+                                    :path="post.path"
+                                    :title="post.title"
+                                    :date="post.date"
+                                    :description="post.description"
+                                    :image="post.image"
+                                    :alt="post.alt"
+                                    :og-image="post.ogImage"
+                                    :tags="post.tags"
+                                    :published="post.published"
+                                />
+                                </template>
+
+                                <ArchiveCard
+                                v-if="paginatedData.length <= 0"
+                                title="No Post Found"
+                                image="/not-found.jpg"
+                                />
+                            </div>
+
+                            <template #fallback>
+                                <!-- this will be rendered on server side -->
+                                <BlogLoader />
+                                <BlogLoader />
+                            </template>
+                            </ClientOnly>
+
                             <!-- Blog item -->
                             <article class="card card-hover-shadow border p-3 mb-4">
                                 <div class="row">
@@ -320,35 +352,6 @@ defineOgImage({
       >
     </div>
 
-    <ClientOnly>
-      <div v-auto-animate>
-        <template v-for="post in paginatedData" :key="post.title">
-          <ArchiveCard
-            :path="post.path"
-            :title="post.title"
-            :date="post.date"
-            :description="post.description"
-            :image="post.image"
-            :alt="post.alt"
-            :og-image="post.ogImage"
-            :tags="post.tags"
-            :published="post.published"
-          />
-        </template>
-
-        <ArchiveCard
-          v-if="paginatedData.length <= 0"
-          title="No Post Found"
-          image="/not-found.jpg"
-        />
-      </div>
-
-      <template #fallback>
-        <!-- this will be rendered on server side -->
-        <BlogLoader />
-        <BlogLoader />
-      </template>
-    </ClientOnly>
 
     <div class="flex justify-center items-center space-x-6 ">
       <button :disabled="pageNumber <= 1" @click="onPreviousPageClick">
