@@ -1,6 +1,7 @@
 <template>
   <div>
     <LandlineHero />
+    <LandlineForm />
     <LandlinePricing />
     <LandlineProcess />
     <LandlineFeatures />
