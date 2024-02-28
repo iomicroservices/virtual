@@ -34,7 +34,6 @@ withDefaults(defineProps<Props>(), {
 
     <!-- Title -->
     <h1 class="h2 mb-0">{{ title || '' }}</h1>
-    <p>{{ description }}</p>
 
     <!-- Action -->
     <div class="d-flex align-items-center flex-wrap mt-4">
@@ -69,6 +68,18 @@ withDefaults(defineProps<Props>(), {
       width="600"
       class="img-fluid rounded mt-5"
     />
+    
+
+    <!-- Quote -->
+    <blockquote class="card card-body bg-light overflow-hidden mt-5 p-sm-5">
+      <!-- Vertical line -->
+      <div class="vr bg-primary h-100 position-absolute top-0 start-0" style="width: 3px; opacity:100%"></div>
+      <!-- Quote icon -->
+      <span class="display-4 position-absolute top-0 start-0 opacity-1 mt-n3"><i class="bi bi-quote"></i></span>
+      <!-- Description text -->
+      <q class="fs-6 heading-color">{{ description }}</q>
+
+    </blockquote>
 
 </header>
 </template>

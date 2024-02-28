@@ -1,7 +1,7 @@
 <template>
     <!-- =======================
     Footer START -->
-    <footer class="pt-6">
+    <footer class="pt-5">
         <div class="container position-relative mt-sm-5">
 
             <!-- CTA -->

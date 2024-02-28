@@ -88,28 +88,6 @@ defineOgImageComponent('Test', {
 </script>
 
 <template>
-  <div class="px-6 container max-w-5xl mx-auto sm:grid grid-cols-12 gap-x-12 ">
-    <div class="col-span-12 lg:col-span-9">
-      <BlogHeader
-        :title="data.title"
-        :image="data.image"
-        :alt="data.alt"
-        :date="data.date"
-        :description="data.description"
-        :tags="data.tags"
-      />
-      <div
-        class="prose prose-pre:max-w-xs sm:prose-pre:max-w-full prose-sm sm:prose-base md:prose-lg
-        prose-h1:no-underline max-w-5xl mx-auto prose-zinc dark:prose-invert prose-img:rounded-lg"
-      >
-        <ContentRenderer v-if="articles" :value="articles">
-          <template #empty>
-            <p>No content found.</p>
-          </template>
-        </ContentRenderer>
-      </div>
-    </div>
-  </div>
 	
   <!-- **************** MAIN CONTENT START **************** -->
   <main>
@@ -121,52 +99,24 @@ defineOgImageComponent('Test', {
       <div class="row g-4 g-sm-7">
         <!-- Main content START -->
         <div class="col-lg-8">
-          <BlogHeader />
-          <!-- Content -->
-          <p class="mt-5">Shifting our perspective from lack to abundance. In this article, we will explore the power of gratitude and how it can enhance our overall well-being and create a positive ripple effect in our lives and the lives of those around us. <strong>In a world filled with chaos</strong> and uncertainty, it's easy to lose sight of the things that truly matter.</p>
-          <p>Additionally, expressing gratitude to others through acts of kindness or <u> heartfelt appreciation strengthens our relationships and</u> fosters a sense of interconnectedness.</p>
-          <p>Incorporating gratitude into our daily routine can be as simple as keeping a gratitude journal, where we write down three things we are grateful for each day. <strong>This practice helps us become more attuned</strong> to the positive aspects of our lives, no matter how small they may seem. </p>
-          <p class="mb-0">By reframing obstacles as opportunities for growth and learning, <mark>we can navigate through difficulties with</mark> a sense of gratitude for the lessons they bring. This mindset shift empowers us to find joy and meaning in every circumstance, leading to a more fulfilling and purposeful life.</p>
 
-          <!-- Quote -->
-          <blockquote class="card card-body bg-light overflow-hidden mt-5 p-sm-5">
-            <!-- Vertical line -->
-            <div class="vr bg-primary h-100 position-absolute top-0 start-0" style="width: 3px; opacity:100%"></div>
+          <BlogHeader 
+            :title="data.title"
+            :image="data.image"
+            :alt="data.alt"
+            :date="data.date"
+            :description="data.description"
+            :tags="data.tags"
+          />
 
-            <!-- Quote icon -->
-            <span class="display-4 position-absolute top-0 start-0 opacity-1 mt-n3"><i class="bi bi-quote"></i></span>
-
-            <q class="fs-6 heading-color">Fulfilled direction use continual set him propriety continued. Farther-related bed and passage comfort civilly. Concluded boy perpetual old supposing.</q>
-            <div class="blockquote-footer mb-0 lead mt-3">
-              Albert Schweitzer
-            </div>
-          </blockquote>
-
-          <!-- Image and list content -->
-          <div class="row mt-5">
-            <!-- Content -->
-            <div class="col-md-6">
-              <h6 class="mb-4">The Ripple Effect of Gratitude</h6>
-              <!-- List -->
-              <ul class="ps-4 mb-4">
-                <li class="mb-2">Gratitude allows us to shift our perspective from focusing on. </li>
-                <li class="mb-2">By recognizing and acknowledging the blessings in our lives.</li>
-                <li class="mb-2">Scientific research has demonstrated that. </li>
-                <li class="mb-2">It allows us to focus on the positive aspects.</li>
-                <li class="mb-2">The power of gratitude extends beyond.</li>
-                <li class="mb-2">By embracing a mindset of gratitude.</li>
-              </ul>
-              <!-- Content -->
-              <p class="small mb-0">Recognizing and acknowledging the blessings in our lives, we invite a sense of abundance and contentment.</p>
-            </div>
-
-            <!-- Image -->
-            <div class="col-md-6 mt-5 mt-md-0">
-              <a href="assets/images/blog/4by4/06.jpg" data-glightbox data-gallery="image-popup">
-                <img src="assets/images/blog/4by4/06.jpg" class="rounded" alt="blog-img">
-              </a>
-            </div>
+          <div class="mt-5">
+            <ContentRenderer v-if="articles" :value="articles">
+            <template #empty>
+              <p>No content found.</p>
+            </template>
+            </ContentRenderer>
           </div>
+
 
           <!-- Helpful box -->
           <div class="bg-light border rounded d-md-flex justify-content-between align-items-center text-center p-3 mt-5">
@@ -188,6 +138,7 @@ defineOgImageComponent('Test', {
 
         <!-- Sidebar START -->
         <div class="col-lg-4 ps-xl-6">
+
           <BlogToc />
           
           <!-- Related post -->
@@ -222,7 +173,6 @@ defineOgImageComponent('Test', {
           </div>
         </div>
         <!-- Sidebar END -->
-
       </div> <!-- Row END -->
     </div>
   </section>
