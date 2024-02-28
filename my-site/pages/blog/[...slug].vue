@@ -110,8 +110,6 @@ defineOgImageComponent('Test', {
       </div>
     </div>
   </div>
-
- 
 	
   <!-- **************** MAIN CONTENT START **************** -->
   <main>
@@ -123,45 +121,7 @@ defineOgImageComponent('Test', {
       <div class="row g-4 g-sm-7">
         <!-- Main content START -->
         <div class="col-lg-8">
-          <!-- Breadcrumb -->
-          <div class="d-flex position-relative z-index-9">
-            <nav aria-label="breadcrumb">
-              <ol class="breadcrumb breadcrumb-dots mb-1">
-                <li class="breadcrumb-item"><a href="#">Home</a></li>
-                <li class="breadcrumb-item"><a href="#">Blog</a></li>
-                <li class="breadcrumb-item active" aria-current="page">Blog single sidebar</li>
-              </ol>
-            </nav>
-          </div>
-
-          <!-- Title -->
-          <h1 class="h2 mb-0">The Power of Gratitude: Cultivating Joy and Abundance</h1>
-
-          <!-- Action -->
-          <div class="d-flex align-items-center flex-wrap mt-4">
-            <a href="#" class="badge text-bg-dark mb-0">Lifestyle</a>
-            <span class="text-secondary opacity-3 mx-3">|</span>
-            <div class="dropdown">
-              <a href="#" class="text-secondary text-primary-hover" id="cardFeedAction" data-bs-toggle="dropdown" aria-expanded="false">
-                <i class="bi bi-share me-2"></i>14
-              </a>
-              <!-- Card feed action dropdown menu -->
-              <ul class="dropdown-menu min-w-auto" aria-labelledby="cardFeedAction">
-                <li><a class="dropdown-item" href="#"> <i class="bi bi-facebook fa-fw me-2"></i>Facebook</a></li>
-                <li><a class="dropdown-item" href="#"> <i class="bi bi-instagram fa-fw me-2"></i>Instagram</a></li>
-                <li><a class="dropdown-item" href="#"> <i class="bi bi-whatsapp fa-fw me-2"></i>Whatsapp</a></li>
-                <li><a class="dropdown-item" href="#"> <i class="fa-regular fa-paste fa-fw me-2"></i>Copy link</a></li>
-              </ul>
-            </div>
-            <span class="text-secondary opacity-3 mx-3">|</span>
-            <a href="#" class="text-secondary text-primary-hover mb-0"><i class="bi bi-chat me-2"></i>5</a>
-            <span class="text-secondary opacity-3 mx-3">|</span>
-            <span class="text-secondary">2 min read</span>
-          </div>
-
-          <!-- Image -->
-          <img src="assets/images/blog/03.jpg" class="img-fluid rounded mt-5" alt="blog-img">
-
+          <BlogHeader />
           <!-- Content -->
           <p class="mt-5">Shifting our perspective from lack to abundance. In this article, we will explore the power of gratitude and how it can enhance our overall well-being and create a positive ripple effect in our lives and the lives of those around us. <strong>In a world filled with chaos</strong> and uncertainty, it's easy to lose sight of the things that truly matter.</p>
           <p>Additionally, expressing gratitude to others through acts of kindness or <u> heartfelt appreciation strengthens our relationships and</u> fosters a sense of interconnectedness.</p>
