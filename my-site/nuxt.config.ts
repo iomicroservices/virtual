@@ -10,6 +10,5 @@ export default defineNuxtConfig({
     '@nuxtjs/sitemap',
     'nuxt-icon',
     'nuxt-og-image',
-    'vue-content-loader',
   ]
 })
