@@ -213,12 +213,12 @@ defineOgImage({
                 <!-- Sidebar END -->
 
                 <!-- Pagination START -->
-                <div class="col-12 mt-6">
+                <div class="col-12 mt-6" v-if="totalPage > 1">
                 <ul class="pagination pagination-primary-soft justify-content-center flex-wrap mb-0">
                     <!-- Previous Page Button -->
                     <li class="page-item" :class="{ disabled: pageNumber <= 1 }">
                     <a class="page-link" href="#" @click.prevent="onPreviousPageClick">
-                        <i class="fas fa-long-arrow-alt-left me-2 rtl-flip"></i>
+                        <i class="fas fa-long-arrow-alt-left me-2 rtl-flip"></i> Prev
                     </a>
                     </li>
 
@@ -228,7 +228,7 @@ defineOgImage({
                     </li>
 
                     <!-- Placeholder for intermediate page numbers -->
-                    <li class="page-item" :class="{ active: pageNumber > 1 && pageNumber < totalPage }">
+                    <li class="page-item" v-if="totalPage > 2" :class="{ active: pageNumber > 1 && pageNumber < totalPage }">
                     <a class="page-link" href="#" @click.prevent="() => {}">...</a>
                     </li>
 
@@ -239,8 +239,8 @@ defineOgImage({
 
                     <!-- Next Page Button -->
                     <li class="page-item" :class="{ disabled: pageNumber >= totalPage }">
-                    <a class="page-link" href="#" @click.prevent="onNextPageClick">
-                        <i class="fas fa-long-arrow-alt-right me-2 rtl-flip"></i>
+                    <a class="page-link" href="#" @click.prevent="onNextPageClick">Next
+                        <i class="fas fa-long-arrow-alt-right ms-2 rtl-flip"></i>
                     </a>
                     </li>
                 </ul>
