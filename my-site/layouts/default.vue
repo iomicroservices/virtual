@@ -1,14 +1,14 @@
 <template>
   <div>
     <header>
-      <LandlineHeader />
+      <MainHeader />
     </header>
     <main>
       <div />
       <slot />
     </main>
     <footer>
-      <LandlineFooter />
+      <MainFooter />
     </footer>
   </div>
 </template>
