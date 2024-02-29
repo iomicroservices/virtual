@@ -168,6 +168,7 @@ defineOgImage({
                         <!-- this will be rendered on server side -->
                         <BlogLoader />
                         <BlogLoader />
+                        <BlogLoader />
                     </template>
                     </ClientOnly>                           
                 </div>
