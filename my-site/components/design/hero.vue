@@ -72,10 +72,10 @@ Main Banner START -->
 			<!-- Hero content END -->
 
 			<!-- Hero image START -->
-			<div class="col-xl-5 d-flex justify-content-center align-items-center" style="min-height: 100%;">
-				<NuxtImg :src="image || 'assets/images/blog/03.jpg'" :alt="alt || ''"/>  
-			</div>
+			<div class="col-xl-5 d-flex justify-content-center align-items-center">
+				<img src="assets/images/custom/hero.png" alt="hello">
 			<!-- Hero image END -->
+			</div>
 			
 		</div>
 		<!-- Hero END -->

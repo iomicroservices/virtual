@@ -12,6 +12,7 @@
 	feature1="Request for free"
 	feature2="£185+/number"
 	feature3="International delivery"
+	path=""
 />
 
 </template>
