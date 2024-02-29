@@ -19,7 +19,13 @@ const props = withDefaults(defineProps<Props>(), {
   link: '',
 })
 
-const title = computed(() => props.title.slice(0, 60))
+const formattedTitle = computed(() => props.title.length > 70 ? `${props.title.slice(0, 60)}...` : props.title)
+const formattedDescription = computed(() => props.description.length > 100 ? `${props.description}...` : props.description)
+const formattedLink = computed(() => {
+  if (props.link.endsWith('jpg') || props.link.endsWith('png'))
+    return props.link
+  else return '/blogs-img/blog.jpg'
+})
 </script>
 
 <template>
@@ -56,21 +62,16 @@ const title = computed(() => props.title.slice(0, 60))
       <p v-if="headline" class="text-uppercase text-success mb-4 fw-semibold" style="font-size: 24px;">
         {{ headline }}
       </p>
-
       <h1 class="m-0 mb-4 fw-semibold text-white d-flex align-items-center" style="font-size: 40px;">
-        <span>{{ title }}</span>
+        <span>{{ formattedTitle }} </span>
       </h1>
-
       <p class="mb-4 text-light" style="font-size: 32px; line-height: 1.25;">
-        {{ description.slice(0, 200) }}
+        {{ formattedDescription }}
       </p>
-
-
     </div>
 
-    <div v-if="link" class="position-absolute" style="top: 200px; right: 200px;">
-        <img :src="link" :alt="title" class="rounded-circle" style="width: 52px; height: 52px; object-fit: cover;">
+    <div v-if="formattedLink" class="position-absolute" style="top: 200px; right: 200px;">
+      <img :src="formattedLink" :alt="title" class="rounded-circle" style="width: 52px; height: 52px; object-fit: cover;">
     </div>
-
   </div>
 </template>
