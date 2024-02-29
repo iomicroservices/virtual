@@ -46,7 +46,7 @@ withDefaults(defineProps<Props>(), {
                     <ul class="nav heading-color small nav-divider mb-0">
                         <li class="nav-item">
                             <template v-for="tag in tags" :key="tag">
-                                <span class="badge text-bg-dark mb-3">{{ tag }}</span>
+                                <span class="badge text-bg-dark">{{ tag }}</span>
                             </template>
                         </li>
                         <li class="nav-item"><i class="bi bi-calendar me-1"></i>{{ date }}</li>
