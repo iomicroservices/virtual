@@ -145,7 +145,7 @@ defineOgImage({
                     <ClientOnly>
                     <div>
                         <template v-for="post in paginatedData" :key="post.title">
-                        <ArchiveCard
+                        <BlogCard2
                             :path="post.path"
                             :title="post.title"
                             :date="post.date"
@@ -158,7 +158,7 @@ defineOgImage({
                         />
                         </template>
 
-                        <ArchiveCard
+                        <BlogCard2
                         v-if="paginatedData.length <= 0"
                         title="No Post Found"
                         image="/not-found.jpg"

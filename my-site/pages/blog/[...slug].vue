@@ -100,7 +100,7 @@ defineOgImageComponent('Test', {
         <!-- Main content START -->
         <div class="col-lg-8">
 
-          <BlogHeader 
+          <BlogPostHero
             :title="data.title"
             :image="data.image"
             :alt="data.alt"
