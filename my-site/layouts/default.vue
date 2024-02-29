@@ -4,7 +4,6 @@
       <MainHeader />
     </header>
     <main>
-      <div />
       <slot />
     </main>
     <footer>

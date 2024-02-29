@@ -7,7 +7,12 @@ defineOgImageComponent('About', {
 </script>
 
 <template>
-  <div>
-      <Logo404 />
+  <div class="py-5 d-flex justify-content-center align-items-center">
+    <div>
+      <Logo404
+        width="576"
+        src="/"
+      />
+    </div>
   </div>
 </template>
