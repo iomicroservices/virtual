@@ -22,6 +22,10 @@ withDefaults(defineProps<Props>(), {
   tags: () => [],
   published: false,
 })
+
+const { ref } = require('vue');
+const hover = ref(false);
+
 </script>
 
 <template>
@@ -29,12 +33,13 @@ withDefaults(defineProps<Props>(), {
     <div class="col-md-4">
         <article class="card card-img-scale shadow overflow-hidden h-100">
             <!-- Link whole element -->
-            <NuxtLink :to="path">
+            <NuxtLink :to="path" class="custom-card-link">
                 <!-- Image -->
                 <div class="card-img-scale-wrapper">
                 <NuxtImg
                     class="img-scale card-img-top"
-                    width="300"
+                    width="267"
+                    height="200"
                     :src="image"
                     :alt="alt"
                 />
@@ -56,3 +61,13 @@ withDefaults(defineProps<Props>(), {
         </article> 
     </div>            
 </template>
+
+
+<style scoped>
+.transition-color {
+  transition: color 0.9s ease;
+}
+.custom-card-link:hover .card-title {
+  color: var(--bs-primary); /* Ensuring direct color transition is handled by CSS */
+}
+</style>

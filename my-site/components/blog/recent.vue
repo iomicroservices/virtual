@@ -28,7 +28,7 @@ const formattedData = computed(() => {
         <div class="row align-items-center g-4 mb-5">
             <!-- Title -->
             <div class="col-md-6">
-            <h2 class="mb-0">Take a look at the latest articles & blogs</h2>
+            <h2 class="mb-0">Take a look at our latest news and tips</h2>
             </div>
 
             <!-- Button -->
