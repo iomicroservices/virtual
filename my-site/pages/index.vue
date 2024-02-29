@@ -22,7 +22,6 @@ defineOgImageComponent('About', {
 
 <template>
   <div>
-    <DesignSaas3Testimonials />
     <LandlineHero />
     <LandlineForm />
     <LandlinePricing />
