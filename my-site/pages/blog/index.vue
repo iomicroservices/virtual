@@ -96,6 +96,7 @@ defineOgImage({
                     </span>
                     Thoughts, stories and ideas from Telco
                 </h1>
+                
                 <!-- Search -->
                 <form class="col-md-7 bg-light border rounded-2 position-relative mx-auto p-2 mt-4 mt-md-5">
                     <div class="input-group">
