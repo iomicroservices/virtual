@@ -1,4 +1,4 @@
-<script lang="ts" setup>
+<script setup lang="ts">
 interface Props {
   path: string
   title: string
@@ -28,7 +28,6 @@ withDefaults(defineProps<Props>(), {
   feature3: 'feature-3',
   badge: 'badge',
 })
-
 </script>
 
 
@@ -47,34 +46,34 @@ Main Banner START -->
 			<!-- Hero content START -->
 			<div class="col-xl-7 pe-xl-5">
 				
-				<span class="heading-color d-inline-block bg-light small rounded-3 px-3 py-2">🤩 Largest selection of UK numbers</span>
+				<span class="heading-color d-inline-block bg-light small rounded-3 px-3 py-2">{{ badge }}</span>
 
 				
 				<!-- Title -->
 				<h1 class="mt-3"> 
-					<p>Virtual business numbers made by you</p>				
+					<p>{{ title }}</p>				
 				</h1>
 
-				<p class="mb-0 mt-4 mt-xl-5">Have something specific in mind? Request a custom mobile number in a couple of clicks. It has never been easier to create a personalised mobile number that reflects your identity or brand.</p>
+				<p class="mb-0 mt-4 mt-xl-5">{{ description }}</p>
 
 				<!-- Buttons -->
 				<div class="d-flex gap-1 gap-sm-3 flex-wrap mt-4 mt-xl-5">
-					<a href="#custom" class="btn btn-primary" role="button">Create a number</a>
-					<a href="#process" class="btn btn-outline-dark" role="button">Find out more</a>
+					<a href="#custom" class="btn btn-primary" role="button">{{ button1 }}</a>
+					<a href="#process" class="btn btn-outline-dark" role="button">{{ button2 }}</a>
 				</div>
 
 				<!-- Features -->
 				<ul class="list-inline d-flex flex-wrap gap-2 gap-sm-4 mb-0 mt-4 mt-xl-5">
-					<li class="list-inline-item heading-color"> <i class="bi bi-fire me-1"></i>Request for free</li>
-					<li class="list-inline-item heading-color"> <i class="bi bi-bag-heart me-1"></i>£185+/number</li>
-					<li class="list-inline-item heading-color"> <i class="bi bi-send-check me-1"></i>International delivery</li>
+					<li class="list-inline-item heading-color"> <i class="bi bi-fire me-1"></i>{{ feature1 }}</li>
+					<li class="list-inline-item heading-color"> <i class="bi bi-bag-heart me-1"></i>{{ feature2 }}</li>
+					<li class="list-inline-item heading-color"> <i class="bi bi-send-check me-1"></i>{{ feature3 }}</li>
 				</ul>
 			</div>
 			<!-- Hero content END -->
 
 			<!-- Hero image START -->
 			<div class="col-xl-5 d-flex justify-content-center align-items-center" style="min-height: 100%;">
-				<img src="assets/images/custom/hero.png" alt="personalise your mobile phone number for business">
+				<NuxtImg :src="image || 'assets/images/blog/03.jpg'" :alt="alt || ''"/>  
 			</div>
 			<!-- Hero image END -->
 			
@@ -86,4 +85,5 @@ Main Banner START -->
 </section>
 <!-- =======================
 Main Banner END -->
+
 </template>
