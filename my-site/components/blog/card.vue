@@ -23,9 +23,6 @@ withDefaults(defineProps<Props>(), {
   published: false,
 })
 
-const { ref } = require('vue');
-const hover = ref(false);
-
 </script>
 
 <template>
