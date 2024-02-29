@@ -65,7 +65,7 @@ withDefaults(defineProps<Props>(), {
     <NuxtImg
       :src="image || 'assets/images/blog/03.jpg'"
       :alt="alt || ''"
-      width="600"
+      width="400"
       class="img-fluid rounded mt-5"
     />
     

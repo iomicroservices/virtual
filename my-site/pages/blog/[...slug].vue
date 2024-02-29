@@ -117,7 +117,6 @@ defineOgImageComponent('Test', {
             </ContentRenderer>
           </div>
 
-
           <!-- Helpful box -->
           <div class="bg-light border rounded d-md-flex justify-content-between align-items-center text-center p-3 mt-5">
             <!-- Title -->
@@ -181,8 +180,6 @@ defineOgImageComponent('Test', {
 
   </main>
   <!-- **************** MAIN CONTENT END **************** -->
-
-
 
 </template>
 
