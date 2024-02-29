@@ -9,6 +9,5 @@
     <LandlineContact />
     <LandlineFeedback />
     <LandlineAbout />
-    <BlogRecent />
   </div>
 </template>
