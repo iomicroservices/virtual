@@ -6,7 +6,6 @@ export default defineNuxtConfig({
       viewport: 'width=device-width, initial-scale=1, shrink-to-fit=no',
       title: 'Virtual Telco Website',
       meta:[{ name: 'description', content: 'The small business hub for everything telco'},
-            { name: 'author', content: 'iomicroservices.com'},
             {name: 'keywords', content: 'call answering, virtual landline, telephone number, business number'}
           ],
     },
