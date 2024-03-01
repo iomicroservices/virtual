@@ -23,13 +23,13 @@ defineOgImageComponent('About', {
 <template>
   <div>
     
-    <DesignHero
+    <LandlineHero
       badge="🤩 Largest selection of UK numbers"
       title="Virtual business numbers made by you"
       description="Have something specific in mind? Request a custom mobile number in a couple of clicks. It has never been easier to create a personalised mobile number that reflects your identity or brand."
-      image="assets/images/custom/hero.png"
+      image="/custom/hero.png"
       alt="personalise your mobile phone number for business"
-      ogImage="assets/images/custom/hero.png"
+      ogImage="/custom/hero.png"
       button1="Create a number"
       button2="Find out more"
       feature1="Request for free"
@@ -37,7 +37,7 @@ defineOgImageComponent('About', {
       feature3="International delivery"
       path=""
     />
-    <LandlineHero />
+    
     <LandlineForm />
     <LandlinePricing />
     <LandlineProcess />

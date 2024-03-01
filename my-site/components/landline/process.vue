@@ -48,7 +48,7 @@ How it works START -->
 					<!-- Image -->
 					<div class="col-11 col-lg-7 ms-lg-n8 mx-auto mt-n5 mt-lg-0">
 						<div class="bg-primary bg-opacity-50 rounded p-5 overflow-hidden ms-3">
-							<img src="assets/images/custom/step1.png" alt="personalising your own UK mobile number is super easy">
+							<img src="/custom/step1.png" alt="personalising your own UK mobile number is super easy">
 						</div>
 					</div>
 				</div>
@@ -68,7 +68,7 @@ How it works START -->
 					<!-- Image -->
 					<div class="col-11 col-lg-7 me-lg-n8 mx-auto mt-n5 mt-lg-0 z-index-2 position-relative order-2">
 						<div class="card card-body shadow rounded p-5 overflow-hidden me-3">
-							<img src="assets/images/custom/step2b.png" class="" alt="select your own mobile number from millions of UK numbers for business">
+							<img src="/custom/step2b.png" class="" alt="select your own mobile number from millions of UK numbers for business">
 						</div>
 					</div>
 

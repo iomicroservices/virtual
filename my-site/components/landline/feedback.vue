@@ -146,7 +146,7 @@ Feedback START -->
 			<!-- Testimonials image -->
 			<div class="col-sm-10 col-lg-6 col-xl-5 position-relative ms-xl-auto">
 				<!-- Image -->
-				<img src="assets/images/custom/feedback3.png" class="rounded" alt="create UK mobile numbers gold testimonials">
+				<img src="/custom/feedback3.png" class="rounded" alt="create UK mobile numbers gold testimonials">
 
 				<!-- SVG decoration -->
 				<figure class="position-absolute top-50 start-0 translate-middle ms-n5 d-none d-xl-block">
