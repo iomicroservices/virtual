@@ -22,6 +22,7 @@ defineOgImageComponent('About', {
 
 <template>
   <div>
+    <DesignProductTestimonials />
     <LandlineHero />
     <LandlineForm />
     <LandlinePricing />
