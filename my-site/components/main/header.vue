@@ -18,8 +18,7 @@ function onClick(val: string) {
             <div class="container">
                 <!-- Logo START -->
                 <NuxtLink to="/" class="navbar-brand me-0">
-                    <img v-if="colorMode.value === 'light'" class="navbar-brand-item" src="/assets/images/logo.svg" alt="logo">
-                    <img v-else class="navbar-brand-item" src="/assets/images/logo-light.svg" alt="logo">
+                    <img class="navbar-brand-item" src="/assets/images/logo.svg" alt="logo">
                 </NuxtLink>
                 <!-- Logo END -->
         
@@ -29,16 +28,32 @@ function onClick(val: string) {
         
                         
                         <!-- Nav item -->
-                        <li class="nav-item"> <a class="nav-link" href="/blog">Blog</a> </li>
+                        <li class="nav-item">
+                            <NuxtLink class="nav-link" to="/blog">
+                                Blog
+                            </NuxtLink>
+                         </li>
         
                         <!-- Nav item -->
-                        <li class="nav-item"> <a class="nav-link" href="#faqs">FAQs</a> </li>
+                        <li class="nav-item">
+                            <NuxtLink class="nav-link" to="/#faqs">
+                                FAQs
+                            </NuxtLink>
+                         </li>
         
                         <!-- Nav item -->
-                        <li class="nav-item"> <a class="nav-link" href="#about">About</a> </li>
+                        <li class="nav-item">
+                            <NuxtLink class="nav-link" to="#about">
+                                About
+                            </NuxtLink>
+                         </li>
         
                         <!-- Nav item -->
-                        <li class="nav-item"> <a class="nav-link" href="#contact-us">Contact</a> </li>
+                        <li class="nav-item">
+                            <NuxtLink class="nav-link" to="#contact-us">
+                                Contact
+                            </NuxtLink>
+                         </li>
                     </ul>
                 </div>
                 <!-- Main navbar END -->

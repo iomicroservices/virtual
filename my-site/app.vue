@@ -1,4 +1,15 @@
 <script setup>
+
+const description
+  = 'Riyad, Software Engineer at AppsCode working on ByteBuilders, with over 2+ years experience in Frontend development.'
+const ogTitle
+  = 'Riyad codes and helps others learn Javascript, Typescript, Vue, Nuxt, & Problem Solving'
+const twitterDescription
+  = 'My blog website, where I play around with Nuxt, Vue, and more and showcase my blog, resources, etc'
+const image
+  = 'https://res.cloudinary.com/dmecmyphj/image/upload/v1673548905/nuxt-blog/cover_ntgs6u.webp'
+const mySite = 'https://blog-nurriyad.vercel.app/'
+
   useHead({
     title: "this is a title",
     link: [
@@ -36,4 +47,30 @@
 @import '~/assets/css/style.css';
 @import '~/assets/vendor/font-awesome/css/all.min.css';
 @import '~/assets/vendor/bootstrap-icons/bootstrap-icons.css';
+
+
+.page-enter-active,
+.page-leave-active {
+  transition: all 0.4s;
+}
+.page-enter-from,
+.page-leave-to {
+  opacity: 0;
+  filter: blur(1rem);
+}
+
+.layout-enter-active,
+.layout-leave-active {
+  transition: all 0.4s;
+}
+.layout-enter-from,
+.layout-leave-to {
+  opacity: 0;
+  filter: blur(1rem);
+}
+
+html.dark{
+  color-scheme: dark;
+}
+
 </style>

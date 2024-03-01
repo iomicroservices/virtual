@@ -25,8 +25,16 @@ withDefaults(defineProps<Props>(), {
     <div class="d-flex position-relative z-index-9">
     <nav aria-label="breadcrumb">
         <ol class="breadcrumb breadcrumb-dots mb-1">
-        <li class="breadcrumb-item"><a href="/">Home</a></li>
-        <li class="breadcrumb-item"><a href="/blog">Blog</a></li>
+        <li class="breadcrumb-item" >
+          <NuxtLink to="/">
+            Home
+          </NuxtLink>
+        </li>
+        <li class="breadcrumb-item">
+          <NuxtLink to="/blog">
+            Blog
+          </NuxtLink>
+        </li>
         <li class="breadcrumb-item active" aria-current="page">{{ title || '' }}</li>
         </ol>
     </nav>
