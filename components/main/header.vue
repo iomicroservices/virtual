@@ -12,7 +12,7 @@ function onClick(val: string) {
 
 <template>
     <!-- Header START -->
-    <header class="header-sticky header-absolute">
+    <header class="header-sticky sticky-top">
         <!-- nav bar ----------------------------------------------->
         <nav class="navbar navbar-expand-xl">
             <div class="container">
@@ -83,3 +83,13 @@ function onClick(val: string) {
     </header>
     <!-- Header END -->
 </template>
+
+<style scoped>
+/* Targets the element that has both `header-sticky` and `sticky` classes */
+.header-sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+</style>

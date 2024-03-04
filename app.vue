@@ -47,6 +47,7 @@ const mySite = 'https://blog-nurriyad.vercel.app/'
 @import '~/assets/css/style.css';
 @import '~/assets/vendor/font-awesome/css/all.min.css';
 @import '~/assets/vendor/bootstrap-icons/bootstrap-icons.css';
+@import '~/assets/css/swiper-bundle.min.css';
 
 
 .page-enter-active,
