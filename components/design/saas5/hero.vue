@@ -28,7 +28,7 @@ withDefaults(defineProps<Props>(), {
     
 <!-- =======================
 Main Banner START -->
-<section class="pt-5 pt-xl-7">
+<section class="pt-5">
 	<div class="container-fluid pt-5">
 		<div class="row">
 			<div class="col-xxl-11 mx-auto">
@@ -45,7 +45,7 @@ Main Banner START -->
 					</div>
 
 					<!-- Images -->
-					<div class="row position-relative mb-n4 mb-md-n7 mb-xl-n9">
+					<div class="row position-relative mb-n4 mb-md-n7 mb-xl-n9 align-items-center justify-content-center">
 						<div class="col-xl-8 mx-auto">
 							<NuxtImg :src="image" :alt="alt" />
 						</div>
@@ -67,7 +67,7 @@ Main Banner END -->
 	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
 	background-size: 200% 200%;
 	animation: gradient 15s ease infinite;
-	height: 150vh;
+	height: auto;
 }
 
 @keyframes gradient {
