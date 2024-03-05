@@ -35,10 +35,6 @@ withDefaults(defineProps<Props>(), {
 <!-- =======================
 Main Banner START -->
 <section id="hero" class="pt-10 pb-0 mb-0">
-	<!-- SVG decoration -->
-	<div class="position-absolute top-0 start-0 ms-n7 d-none d-xl-block">
-		<img src="assets/images/elements/decoration-pattern.svg" alt="">
-	</div>
 
 	<div class="container pt-2 pt-sm-5">
 		<!-- Hero START -->

@@ -2,11 +2,6 @@
 const route = useRoute()
 
 const path = computed(() => route.fullPath.replace('/', ''))
-
-const colorMode = useColorMode()
-function onClick(val: string) {
-  colorMode.preference = val
-}
 </script>
 
 
@@ -17,7 +12,7 @@ function onClick(val: string) {
         <nav class="navbar navbar-expand-xl">
             <div class="container">
                 <!-- Logo START -->
-                <NuxtLink to="/" class="navbar-brand me-0">
+                <NuxtLink to="/" class="navbar-brand py-2">
                     <img class="navbar-brand-item" src="/assets/images/logo.svg" alt="logo">
                 </NuxtLink>
                 <!-- Logo END -->
@@ -29,28 +24,28 @@ function onClick(val: string) {
                         
                         <!-- Nav item -->
                         <li class="nav-item">
-                            <NuxtLink class="nav-link" to="/blog">
+                            <NuxtLink class="nav-link fw-bold" to="/blog">
                                 Blog
                             </NuxtLink>
                          </li>
         
                         <!-- Nav item -->
                         <li class="nav-item">
-                            <NuxtLink class="nav-link" to="/#faqs">
+                            <NuxtLink class="nav-link fw-bold" to="/#faqs">
                                 FAQs
                             </NuxtLink>
                          </li>
         
                         <!-- Nav item -->
                         <li class="nav-item">
-                            <NuxtLink class="nav-link" to="#about">
+                            <NuxtLink class="nav-link fw-bold" to="/#about">
                                 About
                             </NuxtLink>
                          </li>
         
                         <!-- Nav item -->
                         <li class="nav-item">
-                            <NuxtLink class="nav-link" to="#contact-us">
+                            <NuxtLink class="nav-link fw-bold" to="/#contact-us">
                                 Contact
                             </NuxtLink>
                          </li>
@@ -63,7 +58,7 @@ function onClick(val: string) {
         
                     <!-- Buy now button -->
                     <li class="nav-item d-none d-sm-block">
-                        <a href="#custom" class="btn btn-sm btn-primary mb-0" role="button">Get started 🚀</a>
+                        <a href="/#custom" class="btn btn-sm btn-primary mb-0" role="button">Get started 🚀</a>
                     </li>
                     <!-- Responsive navbar toggler -->
                     <li class="nav-item">
