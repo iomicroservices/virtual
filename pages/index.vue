@@ -22,7 +22,6 @@ defineOgImageComponent('About', {
 
 <template>
   <div>
-    
     <LandlineHero
       badge="🤩 Largest selection of UK numbers"
       title="Virtual business numbers made by you"
@@ -46,5 +45,6 @@ defineOgImageComponent('About', {
     <LandlineContact />
     <LandlineFeedback />
     <LandlineAbout />
+
   </div>
 </template>
